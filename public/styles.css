@@ -1,0 +1,192 @@
+.navbar-custom {
+  color: grey !important;
+  padding: 25px 4% !important;
+}
+header {
+  height: 100px;
+}
+
+.search-bar {
+  background-color: white !important;
+  color: grey !important;
+  border-radius: 10px !important;
+  width: 30ch !important;
+}
+
+.search-bar input {
+  padding-left: 15px !important;
+}
+
+.cart-icon {
+  margin-left: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categories-img {
+  height: 120px !important;
+  width: 120px !important;
+  object-fit: scale-down;
+}
+
+.categories img {
+  height: 250px;
+  width: 250px;
+  object-fit: scale-down;
+}
+
+.categories p {
+  color: grey;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.react-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-link {
+  display: inline-block;
+  margin-right: 15px !important;
+  cursor: pointer;
+  color: grey;
+}
+
+footer {
+  background: lightgray;
+  color: black;
+  font-size: 14px;
+  padding: 30px 0 20px;
+}
+
+.about {
+  margin: auto;
+  text-align: left;
+}
+
+.about h1 {
+  background: none;
+  color: black;
+  margin: 20px;
+  padding: 5px;
+  align-content: center;
+  color: grey;
+}
+
+.about p {
+  margin: 20px;
+  padding: 5px;
+  color: grey;
+}
+
+.about img {
+  display: block;
+  height: 500px;
+  width: auto;
+  margin: 40px auto;
+}
+
+.categories-heading {
+  text-align: center;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.custom-btn {
+  background: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  transition: background 0.5s;
+  width: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+.custom-btn:hover {
+  background: black;
+}
+
+.product-detail-image {
+  height: 350px;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.product-detail-images {
+  height: 120px;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 150px;
+  }
+
+  .search-bar {
+    width: 37ch !important;
+    margin: 5px auto !important;
+  }
+
+  .search-bar input {
+    padding: 10px !important;
+    margin-right: 35px;
+  }
+
+  .categories {
+    padding: 2px 30px !important;
+  }
+
+  .categories p {
+    font-size: small;
+  }
+
+  .categories-img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .product-detail-images {
+    height: 90px;
+  }
+}
