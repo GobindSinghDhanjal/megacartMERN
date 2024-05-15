@@ -26,61 +26,45 @@ export const all_products = [
     categoryBackground: "orangered",
     products: [
       {
-        name: "iphone",
+        name: "iPhone 11",
         id: 11,
         image:
           "https://megacart.pythonanywhere.com/media/uploads/products/iphone11-1.jpeg",
         description: "this is iphone",
-        price: 5999,
+        price: 49999,
         category: "mobile",
       },
       {
-        name: "samsung",
+        name: "Samsung S21",
         id: 12,
         image:
           "https://megacart.pythonanywhere.com/media/uploads/products/galaxyS21-1.jpeg",
         description: "this is iphone",
-        price: 7999,
+        price: 69999,
         category: "mobile",
       },
       {
-        name: "samsung",
+        name: "Poco F3",
         image:
-          "https://megacart.pythonanywhere.com/media/uploads/products/galaxyS21-1.jpeg",
+          "https://megacart.pythonanywhere.com/media/uploads/products/F3GT-1.jpeg",
         description: "this is iphone",
-        price: 7999,
+        price: 27999,
         category: "mobile",
       },
       {
-        name: "samsung",
+        name: "Realme GT",
         image:
-          "https://megacart.pythonanywhere.com/media/uploads/products/galaxyS21-1.jpeg",
+          "https://megacart.pythonanywhere.com/media/uploads/products/realme-gt-me-1.jpeg",
         description: "this is iphone",
-        price: 7999,
+        price: 25999,
         category: "mobile",
       },
       {
-        name: "samsung",
+        name: "Realme X7 Max",
         image:
-          "https://megacart.pythonanywhere.com/media/uploads/products/galaxyS21-1.jpeg",
+          "https://megacart.pythonanywhere.com/media/uploads/products/x7max-1.jpeg",
         description: "this is iphone",
-        price: 7999,
-        category: "mobile",
-      },
-      {
-        name: "samsung",
-        image:
-          "https://megacart.pythonanywhere.com/media/uploads/products/galaxyS21-1.jpeg",
-        description: "this is iphone",
-        price: 7999,
-        category: "mobile",
-      },
-      {
-        name: "samsung",
-        image:
-          "https://megacart.pythonanywhere.com/media/uploads/products/galaxyS21-1.jpeg",
-        description: "this is iphone",
-        price: 7999,
+        price: 24999,
         category: "mobile",
       },
     ],
