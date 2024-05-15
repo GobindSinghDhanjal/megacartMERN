@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { all_products, product } from "../../shared/data";
 import { ProductSwiper } from "../SubComponents/ProductSwiper";
+import { useParams } from "react-router-dom";
 
 export const ProductDetail = () => {
   const numberFormat = (value) =>
@@ -8,8 +9,11 @@ export const ProductDetail = () => {
       style: "currency",
       currency: "INR",
     }).format(value);
+  
 
+  const { id } = useParams();
   const [coverImg, setCoverImg] = useState(product.images[0]);
+
 
   return (
     <div className="container mt-5">
@@ -33,7 +37,7 @@ export const ProductDetail = () => {
         </div>
         <div className="col-md-6 mt-4 mt-lg-1 p-4 p-md-1">
           <p className="product-path">
-            Home/{product.category}/{product.name}
+            Home/{product.category}/{product.name}/{id}
           </p>
           <h1>{product.title}</h1>
           <h3>{numberFormat(product.price)}</h3>

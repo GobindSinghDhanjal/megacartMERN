@@ -17,7 +17,7 @@ export const About = () => {
             and The Climate Pledge are some of the things pioneered by MegaCart.
           </p>
           <img
-            src="https://megacart.pythonanywhere.com/static/image/warehouse.jpg"
+            src="https://assets-global.website-files.com/5f4e8ec8a6a5b17c5cefcc00/64ed3a8de9fa1f3bf8b32496_%20Inventory%20.jpeg"
             alt="about"
           />
           <p>
